@@ -1,9 +1,10 @@
+%define pkgname gdm-themes
 Summary:	Themes for Gnome Display Manager
-Name:		gdm-themes
+Name:		gdm-220-themes
 Version:	0.2
-Release:	%mkrel 7
+Release:	%mkrel 8
 # Want a new version? Ask John Keller to make it. - AdamW 2008/02
-Source0:	%{name}-%{version}.tar.lzma
+Source0:	%{pkgname}-%{version}.tar.lzma
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
 Url:		http://svn.mandriva.com/cgi-bin/viewvc.cgi/packages/cooker/gdm-themes
@@ -19,7 +20,7 @@ It provides three themes:
 - RadiantStar
 
 %prep
-%setup -q
+%setup -q -n %{pkgname}-%{version}
 
 %build
 
