@@ -2,7 +2,7 @@
 Summary:	Themes for Gnome Display Manager
 Name:		gdm-220-themes
 Version:	0.2
-Release:	%mkrel 8
+Release:	%mkrel 9
 # Want a new version? Ask John Keller to make it. - AdamW 2008/02
 Source0:	%{pkgname}-%{version}.tar.lzma
 License:	GPLv2+
