@@ -7,7 +7,7 @@ Release:	%mkrel 9
 Source0:	%{pkgname}-%{version}.tar.lzma
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
-Url:		http://svn.mandriva.com/cgi-bin/viewvc.cgi/packages/cooker/gdm-themes
+Url:		https://svn.mandriva.com/cgi-bin/viewvc.cgi/packages/cooker/gdm-themes
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch:	noarch
 Requires:	gdm-220
